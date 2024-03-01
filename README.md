@@ -3,10 +3,20 @@
 ## Install:
 ```
 git clone -b owen-nvim git@github.com:AlgorexHealth/n1-nvim.git
-./install.sh
+./n1-nvim/install.sh
 ```
 
-## About:
+## Requirements: 
+NVIM >= 0.8.0
+Upgrading NVIM:
+```
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+sudo mv nvim.appimage ~/.local/bin/nvim
+# modify to move to /usr/local/bin/nvim depending on machine settings
+```
+
+## What's Different:
 This config uses VimPlug (by the notorius junegunn).
 The config is simply a single init.vim file that contains everything.
 Includes plugins for vim-terminal, nerdtree, and codium by default.

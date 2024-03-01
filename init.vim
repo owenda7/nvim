@@ -7,6 +7,7 @@
 :set softtabstop=4
 :set mouse=r
 :set splitbelow
+:set termguicolors
 
 call plug#begin()
 
